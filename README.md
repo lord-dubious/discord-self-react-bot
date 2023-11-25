@@ -29,11 +29,11 @@ $ python3 -m pip install -U .[voice]
 2. Create a `.env` file in the same directory as the script with the following content:
 
     ```
-    TOKEN=your_discord_token
-    SERVER=your_server_id
-    CHANNEL=your_channel_id
-    TARGET=your_target_keyword
-    EMOJI=your_reaction_emoji
+    TOKEN= your_discord_token
+    SERVER= your_server_id
+    CHANNEL= your_channel_id
+    TARGET= 'your_target_keyword'
+    EMOJI= 'your_reaction_emoji'
     ```
 
     Replace `your_discord_token`, `your_server_id`, `your_channel_id`, `your_target_keyword`, and `your_reaction_emoji` with your actual Discord account token, server ID, channel ID, target keyword, and reaction emoji, respectively.
