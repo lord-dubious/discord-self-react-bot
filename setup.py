@@ -13,11 +13,5 @@ setup(
     author_email="chukwurahdavid@gmail.com",
     description="discord reaction bot",
     url="https://github.com/dubious-senpai/discord-self-react-bot",
-    packages=setuptools.find_packages(),
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
-    python_requires='>=3.9',
+    
 )
