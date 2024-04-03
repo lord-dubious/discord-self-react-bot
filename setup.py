@@ -1,7 +1,11 @@
 from setuptools import setup, find_packages
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+
+
+# read the contents of your README file
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 
 setup(
     
@@ -13,5 +17,7 @@ setup(
     author_email="chukwurahdavid@gmail.com",
     description="discord reaction bot",
     url="https://github.com/dubious-senpai/discord-self-react-bot",
-    
+      # other arguments omitted
+    long_description=long_description,
+    long_description_content_type='text/markdown'
 )
