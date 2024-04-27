@@ -16,9 +16,10 @@ This is a simple self-bot script written in Python using the Discord.py-self dev
 
 # install 
 
-$ git clone https://github.com/dolfies/discord.py-self
-$ cd discord.py-self
-$ python3 -m pip install -U .[voice]
+```
+pip install git+https://github.com/dolfies/discord.py-self.git@master
+
+```
 
 - Your discord account token
 
